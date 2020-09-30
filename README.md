@@ -20,6 +20,6 @@ Or
     
     1) git clone 
     2) cd soet-placement-cell
-    3) Open `index.php` in your editor and start contributing to the project!
+   
 
 
