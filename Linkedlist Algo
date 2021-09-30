@@ -19,10 +19,10 @@ else
 
 for(; curnext!=0; )
 {
-cur->next = pre;
-pre = cur;
-cur = curnext;
-curnext = curnext->next;
+  cur->next = pre;
+  pre = cur;
+  cur = curnext;
+  curnext = curnext->next;
 }
 
 curnext->next = cur;
