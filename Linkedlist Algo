@@ -25,6 +25,6 @@ for(; curnext!=0; )
   curnext = curnext->next;
 }
 
-curnext->next = cur;
+  curnext->next = cur;
 }
 }
