@@ -11,11 +11,11 @@ if(head->next==tail)
 }
 else
 {
-node* pre = head;
-node* cur = head->next;
-node* curnext = cur->next;
-head->next = 0;
-cur-> next = head;
+  node* pre = head;
+  node* cur = head->next;
+  node* curnext = cur->next;
+  head->next = 0;
+  cur-> next = head;
 
 for(; curnext!=0; )
 {
