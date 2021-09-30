@@ -6,8 +6,8 @@ if(head->next==0)
 return;
 if(head->next==tail)
 {
-head->next = 0;
-tail->next = head;
+  head->next = 0;
+  tail->next = head;
 }
 else
 {
